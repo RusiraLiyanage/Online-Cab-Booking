@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>
+Testing
+</title>
+<script src= 
+"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> 
+    </script>
+
+</head>
+<body>
+<button onclick="enable_disable()">  
+        Enable/Disable 
+</button> 
+<form>
+
+First Name:
+<input type = "text" id = "I2" placeholder = "First Name" disabled><br><br>
+Last Name:
+<input type = "text" id = "I3" placeholder = "Last Name" disabled><br><br>
+E - Mail:
+<input type = "text" id = "I4" placeholder = "Email" disabled><br><br>
+Mobile Number:
+<input type = "text" id = "I5" placeholder = "Mobile_Number" disabled><br><br>
+Date Of Birth:
+<input type = "text" id = "I6" value = "8/10/2019" disabled><br><br>
+Exsisting Password:
+<input type = "password"  id = "I7" value = "rererewere" disabled><br><br>
+<input type = "submit" class="registerbtn" id = "I8" value = "Change Password" disabled>
+<input id = "input" type="text" name="input"/>  
+          
+</form>
+
+<script>  
+   function enable_disable() { 
+        $('form input[type="text"]').prop("disabled", false); 
+   } 
+</script>
+</body>
+</html>

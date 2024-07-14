@@ -1,0 +1,153 @@
+<html>
+<head>
+<title>Online Cab Booking</title>
+<link rel = "styleSheet" type = "text/css" href = "UserAccount2.css">
+<link rel = "StyleSheet" type = "text/css" href = "External.css">
+<script src= 
+"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> 
+    </script> 
+> 
+<style>
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+body{
+	background-color:#bfbfbf;
+}
+
+
+
+//Styles for the header starts here.
+</style>
+  
+</head>
+<body>
+<div id = "container">
+	<div id = "main">
+	
+		<div class = "header">
+			<a href = "Vichakshi/news/new 1.html">News</a>
+			<a href = "Vichakshi/business/business2.html">Business</a>
+			<a href = "Pinto/HowWorks/how.html">How It Works</a>
+		</div>
+		<div class="header">
+			<a href="The Home Page.html" class="logo">Cabbing For Cabs</a>
+			<div class="header-right">
+				<a href="The Home Page.html">Home</a>
+				<a href = "RegistrationSelect.html">Register Now</a>
+				<a href = "LoginSelect1.html">Login</a>
+				<a  class = "active" href = "#">Your Account</a>
+				<a href="Gaurawa/contactUs/contactus.html">Contact Us</a>
+				<a href="AboutUs2.html">About Us</a>
+			</div>
+		</div>
+
+		<center>
+		<h1>Your Account(Customer)</h1>
+		</center>
+
+		<hr>
+
+		<center>
+		<img src = "UserAccount2.PNG"><br>
+		Alan Walker
+		</center>
+
+		<button onclick="enable_disable()">  
+        Enable/Disable 
+		</button> 
+		<form class = "button">
+
+		First Name:
+		<input type = "text" id = "I2" placeholder = "First Name" disabled><br><br>
+		Last Name:
+		<input type = "text" id = "I3" placeholder = "Last Name" disabled><br><br>
+		E - Mail:
+		<input type = "text" id = "I4" placeholder = "Email" disabled><br><br>
+		Mobile Number:
+		<input type = "text" id = "I5" placeholder = "Mobile_Number" disabled><br><br>
+		Date Of Birth:
+		<input type = "text" id = "I6" value = "8/10/2019" disabled><br><br>
+		Existing Password:
+		<input type = "password"  id = "I7" value = "Change " disabled><br><br>
+		<input type = "button" onclick="change_password()" class="registerbtn" id = "I8" value = "Change Password" >  
+
+		<button onclick="update_lock()" value = "Update">  
+        Update 
+		</button>
+	</div>
+</div> 
+<footer id = "footer">
+	<div class = "header">
+		<a href = "Vichakshi/t&c/T & C.html">T and C</a>
+		<a href = "Hashini/Privacy Policy.html">Privacy/policy</a>
+		<a href = "Hashini/Careers.html">Carriers</a>
+		<a href = "https://www.facebook.com">
+		<img src = "facebook2.PNG"></a>
+		<a href = "https://www.instagram.com">
+		<img src = "Instragram2.PNG"></a>
+		<a href = "https://twitter.com">
+		<img src = "Tweeter2.PNG"></a>
+		<a href = "https://www.linkedin.com">
+		<img src = "IN2.PNG"></a>
+
+	</div>
+</footer>       
+</form>
+<!-- Script to enable input text fields -->       
+    <script>  
+        function enable_disable() { 
+            $('form input[type="text"]').prop("disabled", false); 
+        } 
+    </script>
+	<script>  
+        function change_password() { 
+            $('form input[type="password"]').prop("disabled", false); 
+        } 
+    </script>
+	<script>  
+        function update_lock() { 
+            $('form input[type="text"]').prop("disabled", true); 
+        } 
+    </script>
+	 
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head><title>drive</title>
+<style>
+body{
+	background-image:url(");}
+</style>
+<link rel = "stylesheet" type = "text/css" href = "drivestyle.css">
+<link rel = "stylesheet" type = "text/css" href = "signupstyle.css">
+<script src = "js/reg.js">
+</script>
+</head>
+
+<body>
+<header >
+<div class = "header">
+	<a href = "../../Vichakshi/news/new 1.html">News</a>
+	<a href = "../../Vichakshi/business/business2.html">Business</a>
+	<a href = "../../Pinto/HowWorks/how.html">How It Works</a>
+</div>
+<div class="header">
+  <a href="../../The Home Page.html" class="logo">Cabbing For Cabs</a>
+  <div class="header-right">
+    <a class="active" href="../../The Home Page.html">Home</a>
+	<a href = "../../RegistrationSelect.html">Register Now</a>
+	<a href = "../../LoginSelect1.html">Login</a>
+	<a href = "../../AccountSelect.html">Your Account</a>
+    <a href="../../Gaurawa/contactUs/contactus.html">Contact Us</a>
+    <a href="../../AboutUs2.html">About Us</a>
+  </div>
+</div>
+</header>
+
+<img class = "logo" src = "new1.jpg" width = "1500" height = "475">
+<hr color = "red">
+<h1>Sign Up to Drive</h1>
+	
+	<div class="reg">
+	<form action="https://google.com" method="get" onsubmit="return checkPassword()" class="form">
+	<label>First Name</label><span class="tab"><label>Last Name</label></span><br>
+	<input class="inputBox" type = "text" pattern="[0-9a-zA-z]{5,20}" id = "fname" placeholder="First Name" autofocus="on" required>
+	<span class="tab"><input class="inputBox" type="text" pattern="[0-9a-zA-z]{5,20}" id="lname" placeholder="Last Name" required></span><br><br>
+	
+	<label>Date Of Birth</label><span class="tab"><label>Gender</label></span><br>
+	<input class="inputBox" type="date" id="DOB" required><span class="tab"><input class="inputBox" list="Gender" placeholder="--Choose Gender--" name="Gender" >
+	<datalist id = "Gender">
+	<option value="Male">
+	<option value="Female">
+	</datalist>
+	</span><br><br>
+	<label>Enter Your phone Number</label><span class="tab"><label>Enter Your E-mail</label></span><br>
+	<input class="inputBox" type="phone" pattern="[0-9]{10}" id="mobile" placeholder="Phone Number" required><span class="tab"><input class="inputBox" type="email" pattern="[a-zA-Z0-9.%_+-]+@[a-zA-Z]+\.[a-z]{2,4}" id = "E-Mail" placeholder="Email" required></span><br><br>
+	<label>Enter vehicle Brand</label><span class = "tab"><label>Enter vehicle type</label></span><br>
+	<select class = "inputBox" id = "mylist1">
+		<option value = "1">Honda</option>
+		<option value = "2">Hyundai</option>
+		<option value = "3">Nissan</option>
+		<option value = "4">Mazda</option>
+		<option value = "5">Toyota</option>
+		<option value = "6">Hino</option>
+		<option value = "7">Suzuki</option>
+		<option value = "8">Kia</option>
+	</select>
+	<span class = "tab">
+	<select class = "inputBox" id = "mylist2">
+		<option value = "1">Car</option>
+		<option value = "2">Van</option>
+		<option value = "3">Pickup</option>
+		<option value = "4">Truck</option>
+		<option value = "5">Bus</option>
+		<option value = "6">Three Wheeler</option>
+	</select>
+	</span><br><br>
+	<label>Enter NIC No</label><span class = "tab">
+	<label>Enter a Password</label></span><br>
+	<input type = "text" class = "inputBox" name = "nic" placeholder = "NIC No" pattern = "[0-9u-wU-W]{10}"required><span class = "tab">
+	<input class="inputBox" type="password" id="pass" placeholder="Password" required></span><br><br>
+	<label>Reenter the password</label><br>
+	<input class="inputBox" type="password" id="repass" placeholder="Confirm Password" required></span><br><br><br>
+	<center>
+	<input  type="checkBox" id="check" required >Accept privacy policy and tarms.<br><br>
+	<input  type="image" class="si" src="images/sign up.jpg" alt="Sign Up" id="signup" value="submit">
+	</center>
+	</form>
+	</div>
+<footer id = "footer">
+	<div class = "header">
+	<a href = "../../Vichakshi/t&c/T & C.html"> Terms and Conditions</a>
+	<a href = "../../Hashini/Privacy Policy.html"> Privacy Policy</a>
+	<a href = "../../Hashini/Careers.html"> Carriers</a>
+	<a href =  "https://www.facebook.com">
+	<img src = "image/facebook.png" width = 30px height = 30px></a>
+	<a href = "https://www.instagram.com">
+	<img src = "image/insta.jpg" width = 30px height = 30px></a>
+	<a href = "https://twitter.com">
+	<img src = "image/LinkedIn.png" width = 30px height = 30px></a>
+	</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script src = "js/reg.js">
+	</script>
+	<title>Sign up to Ride</title>
+	<link rel="stylesheet" type="text/css" href="style/signupstyle.css">
+
+	</head>
+	
+	<body>
+		<header >
+			<div class = "header">
+				<a href = "../../Vichakshi/news/new 1.html">News</a>
+				<a href = "../../Vichakshi/business/business2.html">Business</a>
+				<a href = "../HowWorks/how.html">How It Works</a>
+			</div>
+			<div class="header">
+				<a href="../../The Home Page.html" class="logo">Cabbing For Cabs</a>
+			<div class="header-right">
+				<a  href="../../The Home Page.html">Home</a>
+				<a class="active" href = "../../RegistrationSelect.html">Register Now</a>
+				<a href = "../../LoginSelect1.html">Login</a>
+				<a href = "../../AccountSelect.html">Your Account</a>
+				<a href="../../Gaurawa/contactUs/contactus.html">Contact Us</a>
+				<a href="../../AboutUs2.html">About Us</a>
+			</div>
+			</div>
+		</header><br>
+	<img class="taxi" src="images/txi1.jpg" alt="taxi">
+	<h1>Sign Up to Ride</h1>
+	
+	<div class="reg">
+	<form action="https://google.com" method="get" onsubmit="return checkPassword()" class="form">
+	<label>First Name</label><span class="tab"><label>Last Name</label></span><br>
+	<input class="inputBox" type = "text" pattern="[0-9a-zA-z]{5,20}" id = "fname" placeholder="First Name" autofocus="on" required>
+	<span class="tab"><input class="inputBox" type="text" pattern="[0-9a-zA-z]{5,20}" id="lname" placeholder="Last Name" required></span><br><br>
+	
+	<label>Date Of Birth</label><span class="tab"><label>Gender</label></span><br>
+	<input class="inputBox" type="date" id="DOB" required><span class="tab"><input class="inputBox" list="Gender" placeholder="--Choose Gender--" name="Gender" >
+	<datalist id = "Gender">
+	<option value="Male">
+	<option value="Female">
+	</datalist>
+	</span><br><br>
+	<label>Enter Your phone Number</label><span class="tab"><label>Enter Your E-mail</label></span><br>
+	<input class="inputBox" type="phone" pattern="[0-9]{10}" id="mobile" placeholder="Phone Number" required><span class="tab"><input class="inputBox" type="email" pattern="[a-zA-Z0-9.%_+-]+@[a-zA-Z]+\.[a-z]{2,4}" id = "E-Mail" placeholder="Email" required></span><br><br>
+	<label>Enter a Password</label><span class="tab"><label>Confirm Password</label></span><br>
+	<input class="inputBox" type="password" id="pass" placeholder="Password" required><span class="tab"><input class="inputBox" type="password" id="repass" placeholder="Confirm Password" required></span><br><br><br>
+	<center>
+	<input  type="checkBox" id="check" required ">Accept privacy policy and tarms.<br><br>
+	<input  type="image" class="si" src="images/sign up.jpg" alt="Sign Up" id="signup" value="submit">
+	</center>
+	</form>
+	</div>
+	
+		<footer id="footer">
+			<div class = "header">
+				<a href = "../../Vichakshi/t&c/T & C.html">T and C</a>
+				<a href = "../../Hashini/Privacy Policy.html">Privacy/policy</a>
+				<a href = "../../Hashini/Careers.html">Carriers</a>
+				<a href = "https://www.facebook.com">
+		
+				<img src = "images/facebook.png" width=30px height=30px></a>
+				<a href = "https://www.instagram.com">
+				<img src = "images/insta.jpg" width=30px height=30px></a>
+				<a href = "https://twitter.com">
+				<img src = "images/Twitter.png" width=30px height=30px></a>
+				<a href = "https://www.linkedin.com">
+				<img src = "images/LinkedIn.png" width=30px height=30px></a>
+			</div>
+			
+		</footer>
+	</body>
+</html>
